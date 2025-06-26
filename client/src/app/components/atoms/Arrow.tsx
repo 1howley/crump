@@ -4,7 +4,7 @@ interface ArrowProps {
 
 export const Arrow: React.FC<ArrowProps> = ({ direction }) => {
     return (
-        <span style={{ color: "var(--color-main)" }} className="text-xl">
+        <span style={{ color: "var(--color-main)" }} className="text-3xl">
             {direction === "left" ? "<" : ">"}
         </span>
     );
